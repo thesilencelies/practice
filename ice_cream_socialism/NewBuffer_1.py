@@ -1,5 +1,7 @@
 #Okay, so this is the very first thing I had in mind way bck when you were first explaining the qeue vs stack system to me. I now understand how it's not what you were looking for, now I just gotta get the other version to work too :)'
 
+#This one is like a one way conveyerbelt where it always adds the next item to the end of the array and pushes everything left (you know, cuts off the furthest left ends jawn)
+
 class Ring_Buffer:
 	def __init__(self, limit):
 		self.limit = limit 
